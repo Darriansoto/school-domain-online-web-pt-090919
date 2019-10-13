@@ -13,7 +13,7 @@ class School
     if @roster[grade] != nil
       @roster[grade] << student_name
     else
-      
+      @roster[grade] = [student_name]
     end
   end
   
